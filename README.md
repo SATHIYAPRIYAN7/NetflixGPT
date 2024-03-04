@@ -1,62 +1,42 @@
-### Netflix GPT
-Create React App
-Configured TailwindCSS
-Header
-Routing of App
-Login Form
-Sign up Form
-Form Validation
-useRef Hook
-Firebase Setup
-Deploying our app to production
-Create SignUp User Account
-Implement Sign In user Api
-Created Redux Store with userSlice
-Implemented Sign out
-Update Profile
-BugFix: Sign up user displayName and profile picture update
-BugFix: if the user is not logged in Redirect /browse to Login Page and vice-versa
-Unsubscibed to the onAuthStateChanged callback
-Add hardcoded values to the constants file
-Regiter TMDB API & create an app & get access token
-Get Data from TMDB now playing movies list API
-Custom Hook for Now Playing Movies
-Create movieSlice
-Update Store with movies Data
-Planning for MainContauiner & secondary container
-Fetch Data for Trailer Video
-Update Store with Trailer Video Data
-Embedded the Yotube video and make it autoplay and mute
-Tailwind Classes to make Main Container look awesome
-Build Secondary Component
-Build Movie List
-build Movie Card
-TMDB Image CDN URL
-Made the Browsre page amazing with Tailwind CSS
-usePopularMovies Custom hook
-GPT Search Page
-GPT Search Bar
-(BONUS) Multi-language Feature in our App)
-Get Open AI Api Key
-Gpt Search API Call
-fetched gptMoviesSuggestions from TMDB
-created gptSlice added data
-Resused Movie List component to make movie suggestion container
-Memoization
-Added .env file
-Adding .env file to gitignore
-Made our Site Responsive
+# Netflix Clone
+
+This project is a Netflix clone built with React, Tailwind CSS, Firebase, and uses TMDB API for movie data. It includes features such as user authentication, a responsive design, movie trailers, and GPT-powered movie suggestions.
+
+## Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Features
-Login/Sign Up
-Sign In /Sign up Form
-redirect to Browse Page
-Browse (after authentication)
-Header
-Main Movie
-Tailer in Background
-Title & Description
-MovieSuggestions
-MovieLists * N
-NetflixGPT
-Search Bar
-Movie Suggestions
+
+- **Authentication:**
+  - User can sign up or log in.
+  - Form validation for email and password.
+  - Firebase authentication with user sign up, sign in, and sign out.
+
+- **Main Container:**
+  - Displays the main content after authentication.
+  - Tailwind CSS styling for an appealing look.
+
+- **Secondary Container:**
+  - Additional container for displaying secondary content.
+
+- **Movie Lists:**
+  - Fetches data from TMDB API for Now Playing movies list.
+  - Custom hook for fetching popular movies.
+  - Responsive design using Tailwind CSS.
+
+- **Trailer Video:**
+  - Fetches data for trailer videos.
+  - Updates store with trailer video data.
+  - Embeds YouTube video with autoplay and mute features.
+
+- **GPT Search Page:**
+  - GPT-powered search bar for movie suggestions.
+  - Uses Open AI API for GPT search.
+  - Multi-language feature for the app.
+
