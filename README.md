@@ -5,11 +5,7 @@ This project is a Netflix clone built with React, Tailwind CSS, Firebase, and us
 ## Table of Contents
 
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+  
 
 ## Features
 
