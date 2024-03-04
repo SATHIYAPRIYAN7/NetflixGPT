@@ -2,6 +2,8 @@
 
 This project is a Netflix clone built with React, Tailwind CSS, Firebase, and uses TMDB API for movie data. It includes features such as user authentication, a responsive design, movie trailers, and GPT-powered movie suggestions.
 
+## Hosted Link :  https://netflix-gpt-fawn-chi.vercel.app/ 
+
 ## Table of Contents
 
 - [Features](#features)
