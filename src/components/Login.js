@@ -104,10 +104,10 @@ setloder(true);
         <form onSubmit={(e)=> e.preventDefault()} className=" p-6 px-9 rounded flex  flex-col">
           <h1 className="text-3xl mt-5 mb-10 text-white font-bold">{!isSignin? "Sign In" : "Sign Up"}</h1>
           {
-            isSignin && <input className="max-w-80 sm:w-80 mb-6 text-white p-2  border bg-transparent py-3 border-gray-300 rounded" type='text' ref={username} placeholder='Username' />
+            isSignin && <input className="w-72 sm:w-80 mb-6 text-white p-2  border bg-transparent py-3 border-gray-300 rounded" type='text' ref={username} placeholder='Username' />
           }
-          <input className="max-w-80 sm:w-80 mb-6 text-white p-2  border bg-transparent py-3 border-gray-300 rounded" ref={email} type='text' placeholder='Email or phone number' />
-          <input ref={password} className="max-w-80 sm:w-80 text-white p-2 mb-7 border bg-transparent py-3 border-gray-300 rounded" type='password' placeholder='Password' />
+          <input className="w-72 sm:w-80 mb-6 text-white p-2  border bg-transparent py-3 border-gray-300 rounded" ref={email} type='text' placeholder='Email or phone number' />
+          <input ref={password} className="w-72 sm:w-80 text-white p-2 mb-7 border bg-transparent py-3 border-gray-300 rounded" type='password' placeholder='Password' />
           <button onClick={()=>handleClick()} className="bg-red-600 text-white p-2 rounded">{!isSignin? "Sign In" : "Sign Up"}</button>
 
           {
