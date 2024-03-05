@@ -12,7 +12,7 @@ function CardSection({ selector, name }) {
   }
      console.log(selector)
   return (
-    <div className='pl-10 max-w-screen '>
+    <div className='pl-4 md:pl-10 max-w-screen '>
       <h1 className='text-white mb-2 font-bold text-2xl'> {name}</h1>
       <div className=' overflow-x-scroll overflow-y-hidden scrollbar-hide'>
 

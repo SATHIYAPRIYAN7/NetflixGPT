@@ -86,7 +86,7 @@ function Header() {
             <button onClick={handleSearch} className='flex items-center text-sm sm:text-base gap-1 text-white mr-4 bg-lime-600 px-2 py-1 rounded-lg hover:bg-green-800'> {!gpttoggle ? <><p className='hidden sm:block' >GPT Search </p><IoSearch className='text-2xl sm:text-base text-white'  /></> : "Homepage"}</button>
           </div>
            <img src='https://cdn-icons-png.flaticon.com/128/2202/2202112.png' className='w-7 sm:w-8 mr-1' alt='profileimage'/> 
-          <p className='text-white text-sm sm:text-base mr-2 '>{store?.displayName}</p>
+          <p className='text-white hidden text-sm sm:block sm:text-base mr-2 '>{store?.displayName}</p>
           <button className='text-white text-sm sm:text-base px-2 py-1 rounded-md bg-red-600 mx-4 hover:bg-red-700' onClick={handlesignout}>Sign out</button>
         </div>}</div>
     </div>

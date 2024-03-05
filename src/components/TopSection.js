@@ -12,7 +12,7 @@ function TopSection({select ,showinfo,infom}) {
       const selector=useSelector(store => store.Movies?.Trailer)
  
   return (
-    <div className='text-white  '>
+    <div className='text-white '>
         <MovieTitle title={original_title} id={id} description={overview} showinfo={showinfo} infom={infom}/>
         <div className='absolute top-0 bottom-0 bg-black'>
            <MovieVideoBaclground  id={selector?.key}/>
