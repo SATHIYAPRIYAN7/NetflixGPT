@@ -26,7 +26,7 @@ function SingleCard({path,obj}) {
   
   return (
         
-        <img onClick={handleclick} src={Poster_Path+ path} className='w-36 md:m-44 hover:scale-110' alt="posters"/>
+        <img onClick={handleclick} src={Poster_Path+ path} className='w-36  sm:w-44 hover:scale-110' alt="posters"/>
    
   )
 }
