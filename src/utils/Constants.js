@@ -9,4 +9,4 @@ export const Api_Options = {
   export const Poster_Path="https://image.tmdb.org/t/p/w500"
 
 
-  export  const Openai_Key ="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"
+  export  const Openai_Key ="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"
