@@ -10,7 +10,7 @@ function CardSection({ selector, name }) {
   if (!selector || selector.length === 0) {
     return null;
   }
-     console.log(selector)
+     
   return (
     <div className='pl-4 md:pl-10 max-w-screen '>
       <h1 className='text-white mb-2 font-bold text-2xl'> {name}</h1>
